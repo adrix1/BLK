@@ -1,0 +1,57 @@
+body {
+	font-family: 'Finger Paint', cursive;
+}
+nav ul a,
+nav .brand-logo {
+	color: white;
+}
+p {
+	line-height: 2rem;
+}
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.row {
+	margin: 0%;
+    padding: 0%;
+}
+h1{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+#costura {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.button-collapse {
+	color: #7b1fa2;
+}
+.parallax-container {
+	min-height: 100%;
+	line-height: 0;
+	height: 660px;
+	color: rgba(255,255,255,.9);
+    background-position: center;
+}
+.parallax-container .adrix {
+	width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+	.parallax-container .adrix {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .adrix {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	#index-banner .adrix {
+		top: 0;
+	}
+}
